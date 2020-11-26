@@ -1,7 +1,7 @@
 {
   "name": "HAHConnect-iOS",
   "version": "0.0.1",
-  "summary": "A short description of HAHConnect.",
+  "summary": "Health at Hand’s mobile SDK project; known as HAH Connect to integrate HAH telehealth platform with native iOS and Android mobile apps.",
   "homepage": "https://www.myhealthathand.com",
   "license": {
     "type": "MIT",
@@ -11,10 +11,10 @@
     "veer-suthar": "veer@nextgeni.com"
   },
   "source": {
-    "http": "https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/hahconnect.zip"
+    "http": "https://hahliveimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/60550608/hahconnect.zip?version=60550608"
   },
   "vendored_frameworks": "HAHConnect.framework",
-  "swift_version": "4.2",
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "10.0"
   },
@@ -51,6 +51,28 @@
     ],
     "SwiftMessages": [
       "6.0.2"
+    ],
+    "FirebaseMLVisionTextModel": [
+      "0.15.0"
+    ],
+    "EasyTipView": [
+      "2.0.1"
+    ],
+    "SwiftDate": [
+      "6.0.1"
+    ],
+    "ISPageControl": [
+      "0.1.0"
+    ],
+    "WeScan": [
+      "1.1.0"
+    ],
+    "TOCropViewController": [
+      "2.4.0"
+    ],
+    "Kingfisher": [
+      "5.4.0"
     ]
-  }
+  },
+  "swift_version": "4.2"
 }

@@ -10,7 +10,8 @@
   },
   "swift_versions": "4.2",
   "source": {
-    "http": "https://github.com/bodybank-sdk/BodyBank-SDK-iOS/raw/master/BodyBankEnterprise.framework.zip"
+    "http": "https://github.com/bodybank-sdk/BodyBank-SDK-iOS/raw/feature/0.0.48/BodyBankEnterprise.framework.zip",
+    "sha1": "122508af7fb02a2db8536a5cc68c14e0f63060f4"
   },
   "ios": {
     "vendored_frameworks": "BodyBankEnterprise.framework"

@@ -3,6 +3,10 @@ set -eo pipefail
 
 mkdir _site || true
 
-ruby Scripts/create_pods_and_versions_index.rb _site
+# generate sharded index
+bundle exec ruby Scripts/create_pods_and_versions_index.rb _site
 
+# add redirects to GitHub
 cp Scripts/netlify_redirects.txt _site/_redirects
+
+cp ./*.yml _site/

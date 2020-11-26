@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "summary": "TDLib JSON interface for iOS, macOS, watchOS and tvOS",
   "description": "TDLib (Telegram Database library) is a cross-platform library for building Telegram clients. tdjson is a C interface for interaction with TDLib via JSON-serialized objects. Can be used to easily integrate TDLib with any programming language which supports calling C functions and is able to work with JSON.",
-  "homepage": "https://bitbucket.org/ky1vstar/tdjson/",
+  "homepage": "https://github.com/ky1vstar/tdjson",
   "license": {
     "type": "BSL-1.0",
     "file": "LICENSE_1_0.txt"
@@ -13,13 +13,50 @@
     "ky1vstar"
   ],
   "source": {
-    "http": "https://bitbucket.org/ky1vstar/tdjson/raw/master/iOS/tdjson.1.4.0.zip"
+    "http": "https://github.com/ky1vstar/tdjson/releases/download/1.4.0/tdjson.cocoapods.tar.gz"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0",
+    "tvos": "9.0",
+    "osx": "10.9",
+    "watchos": "2.0"
   },
+  "requires_arc": true,
+  "source_files": [
+    "Source/td/**/*.h",
+    "Source/*.swift"
+  ],
+  "public_header_files": "Source/td/**/*.h",
+  "libraries": [
+    "c++",
+    "z",
+    "crypto",
+    "ssl",
+    "tdcore",
+    "tdactor",
+    "tdclient",
+    "tddb",
+    "tdjson_private",
+    "tdjson_static",
+    "tdnet",
+    "tdsqlite",
+    "tdutils"
+  ],
+  "frameworks": "Foundation",
   "ios": {
-    "vendored_frameworks": "tdjson.framework"
+    "preserve_paths": "iOS/*.a",
+    "vendored_libraries": "iOS/*.a"
   },
-  "requires_arc": true
+  "osx": {
+    "preserve_paths": "macOS/*.a",
+    "vendored_libraries": "macOS/*.a"
+  },
+  "watchos": {
+    "preserve_paths": "watchOS/*.a",
+    "vendored_libraries": "watchOS/*.a"
+  },
+  "tvos": {
+    "preserve_paths": "tvOS/*.a",
+    "vendored_libraries": "tvOS/*.a"
+  }
 }

@@ -14,14 +14,13 @@
   "summary": "TXIMSDK_iOS",
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/tencentyun/TIMSDK.git",
-    "tag": "4.4.479"
+    "http": "https://imsdk-1252463788.cos.ap-guangzhou.myqcloud.com/4.4.479/TIM_SDK_iOS_latest_framework.zip"
   },
-  "preserve_paths": "iOS/ImSDK/Framework/ImSDK.framework",
-  "source_files": "iOS/ImSDK/Framework/ImSDK.framework/Headers/*.h",
-  "public_header_files": "iOS/ImSDK/Framework/ImSDK.framework/Headers/*.h",
-  "vendored_frameworks": "iOS/ImSDK/Framework/ImSDK.framework",
+  "preserve_paths": "**/ImSDK.framework",
+  "source_files": "**/ImSDK.framework/Headers/*.h",
+  "public_header_files": "**/ImSDK.framework/Headers/*.h",
+  "vendored_frameworks": "**/ImSDK.framework",
   "xcconfig": {
-    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/TXIMSDK_iOS/iOS/ImSDK/Framework/ImSDK.framework/Headers/"
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/TXIMSDK_iOS/ImSDK.framework/Headers/"
   }
 }

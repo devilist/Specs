@@ -1,7 +1,7 @@
 {
   "name": "HAHConnect-iOS",
   "version": "0.0.5",
-  "summary": "A short description of HAHConnect.",
+  "summary": "Health at Hand’s mobile SDK project; known as HAH Connect to integrate HAH telehealth platform with native iOS and Android mobile apps.",
   "homepage": "https://www.myhealthathand.com",
   "license": {
     "type": "MIT",
@@ -11,10 +11,10 @@
     "veer-suthar": "veer@nextgeni.com"
   },
   "source": {
-    "http": "https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/669788813/hahconnect.zip?version=1556687275"
+    "http": "https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/896124521/hahconnect.zip?version=896124521"
   },
   "vendored_frameworks": "HAHConnect.framework",
-  "swift_version": "4.2",
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "10.0"
   },
@@ -26,7 +26,7 @@
       "2.2.4"
     ],
     "CocoaLumberjack/Swift": [
-      "3.4.2"
+      "3.5.1"
     ],
     "Cosmos": [
       "18.0.1"
@@ -58,11 +58,24 @@
     "EasyTipView": [
       "2.0.1"
     ],
-    "DKImagePickerController": [
-      "4.1.4"
-    ],
     "SwiftDate": [
       "6.0.1"
+    ],
+    "ISPageControl": [
+      "0.1.0"
+    ],
+    "WeScan": [
+      "1.1.0"
+    ],
+    "TOCropViewController": [
+      "2.4.0"
+    ],
+    "Kingfisher": [
+      "5.4.0"
+    ],
+    "CleverTap-iOS-SDK": [
+      "3.7.2"
     ]
-  }
+  },
+  "swift_version": "4.2"
 }

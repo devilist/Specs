@@ -19,13 +19,9 @@
   "platforms": {
     "ios": "10.0"
   },
-  "dependencies": {
-    "SwiftCBOR": [
-      "~> 0.4.1"
-    ]
-  },
   "source": {
     "http": "https://software.ditto.live/sdk/cocoa/DittoKit/0.1.0/DittoKit-dist.tar.gz"
   },
-  "vendored_frameworks": "DittoKit.framework"
+  "vendored_frameworks": "DittoKit.framework",
+  "swift_version": "5.0"
 }

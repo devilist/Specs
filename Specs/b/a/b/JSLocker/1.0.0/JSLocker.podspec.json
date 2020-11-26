@@ -16,7 +16,7 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/spirit-jsb/JSDrawer.git",
+    "git": "https://github.com/spirit-jsb/JSLocker.git",
     "tag": "1.0.0"
   },
   "source_files": "Sources/**/*.swift",
@@ -24,5 +24,7 @@
   "frameworks": [
     "UIKit",
     "Foundation"
-  ]
+  ],
+  "deprecated": true,
+  "swift_version": "5.0"
 }

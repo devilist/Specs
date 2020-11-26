@@ -19,16 +19,5 @@
     "ios": "9.0"
   },
   "swift_versions": "4.2",
-  "dependencies": {
-    "RxSwift": [
-      "~> 4.0"
-    ],
-    "RxAtomic": [
-      "~> 4.0"
-    ],
-    "RxCocoa": [
-      "~> 4.0"
-    ]
-  },
   "swift_version": "4.2"
 }

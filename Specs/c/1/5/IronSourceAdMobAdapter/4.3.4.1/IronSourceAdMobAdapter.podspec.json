@@ -12,7 +12,7 @@
     "IronSource": "http://www.ironsrc.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISAdMobAdapter4.3.0.zip"
+    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISAdMobAdapter4.3.4.zip"
   },
   "source_files": "ISAdMobAdapter/ISAdMobAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISAdMobAdapter/ISAdMobAdapter.framework/**/*.h",
@@ -39,6 +39,9 @@
   "dependencies": {
     "IronSourceSDK": [
       "= 6.8.4.0"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "= 7.42.2"
     ]
   }
 }

@@ -16,29 +16,39 @@
     "tag": "0.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "TYSMKit/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
-
-    ],
-    "FLEX": [
-
-    ],
-    "UITableView+FDTemplateLayoutCell": [
-
-    ],
-    "YYKit": [
-
-    ],
-    "Masonry": [
 
     ],
     "SDWebImage": [
 
     ],
-    "MBProgressHUD": [
+    "YYKit": [
+
+    ],
+    "CocoaLumberjack": [
+
+    ],
+    "XMLDictionary": [
+
+    ],
+    "DateTools": [
+
+    ],
+    "FCFileManager": [
+
+    ],
+    "BRPickerView": [
+
+    ],
+    "CYLTabBarController": [
+
+    ],
+    "RTRootNavigationController": [
 
     ]
   }
